@@ -1,5 +1,5 @@
-@import "helpers";
-@import "fonts/clear-sans.css";
+@import 'helpers';
+@import 'fonts/clear-sans.css';
 
 $field-width: 500px;
 $grid-spacing: 15px;
@@ -371,7 +371,10 @@ hr {
       }
 
       // Set background
-      background: $mixed-background;
+      // background: $mixed-background;
+      // background: black;
+      background-image: url('tiles/#{$power}.png');
+      background-size:contain;
 
       // Add glow
       $glow-opacity: max($exponent - 4, 0) / ($limit - 4);
@@ -382,20 +385,21 @@ hr {
       }
 
       // Adjust font size for bigger numbers
-      @if $power >= 100 and $power < 1000 {
-        font-size: 45px;
+      // @if $power >= 100 and $power < 1000 {
+      //   font-size: 45px;
 
-        // Media queries placed here to avoid carrying over the rest of the logic
-        @include smaller($mobile-threshold) {
-          font-size: 25px;
-        }
-      } @else if $power >= 1000 {
-        font-size: 35px;
+      //   // Media queries placed here to avoid carrying over the rest of the logic
+      //   @include smaller($mobile-threshold) {
+      //     font-size: 25px;
+      //   }
+      // } @else if $power >= 1000 {
+      //   font-size: 35px;
 
-        @include smaller($mobile-threshold) {
-          font-size: 15px;
-        }
-      }
+      //   @include smaller($mobile-threshold) {
+      //     font-size: 15px;
+      //   }
+      // }
+      font-size: 0px;
     }
 
     $exponent: $exponent + 1;
@@ -404,13 +408,14 @@ hr {
   // Super tiles (above 2048)
   &.tile-super .tile-inner {
     color: $bright-text-color;
-    background: mix(#333, $tile-gold-color, 95%);
+    background-image: url("tiles/super.png");
+    background-size:contain;
 
-    font-size: 30px;
+    font-size: 0px;
 
-    @include smaller($mobile-threshold) {
-      font-size: 10px;
-    }
+    // @include smaller($mobile-threshold) {
+    //   font-size: 0px;
+    // }
   }
 }
 

@@ -323,70 +323,70 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background-image: url("tiles/2.png");
-    background-size: contain;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
-    font-size: 0px; }
+    background: black;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background-image: url("tiles/4.png");
-    background-size: contain;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
-    font-size: 0px; }
+    background: black;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/8.png");
-    background-size: contain;
-    font-size: 0px; }
+    background: black; }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/16.png");
-    background-size: contain;
-    font-size: 0px; }
+    background: black; }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/32.png");
-    background-size: contain;
-    font-size: 0px; }
+    background: black; }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/64.png");
-    background-size: contain;
-    font-size: 0px; }
+    background: black; }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/128.png");
-    background-size: contain;
+    background: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2380952381), inset 0 0 0 1px rgba(255, 255, 255, 0.1428571429);
-    font-size: 0px; }
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-128 .tile-inner {
+        font-size: 25px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/256.png");
-    background-size: contain;
+    background: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.3174603175), inset 0 0 0 1px rgba(255, 255, 255, 0.1904761905);
-    font-size: 0px; }
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-256 .tile-inner {
+        font-size: 25px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/512.png");
-    background-size: contain;
+    background: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.3968253968), inset 0 0 0 1px rgba(255, 255, 255, 0.2380952381);
-    font-size: 0px; }
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-512 .tile-inner {
+        font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/1024.png");
-    background-size: contain;
+    background: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.4761904762), inset 0 0 0 1px rgba(255, 255, 255, 0.2857142857);
-    font-size: 0px; }
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-1024 .tile-inner {
+        font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/2048.png");
-    background-size: contain;
+    background: black;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.5555555556), inset 0 0 0 1px rgba(255, 255, 255, 0.3333333333);
-    font-size: 0px; }
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-2048 .tile-inner {
+        font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/super.png");
-    background-size: contain;
-    font-size: 0px; }
+    background: #3c3a33;
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-super .tile-inner {
+        font-size: 10px; } }
 
 @-webkit-keyframes $animation-name {
   0% {
@@ -742,4 +742,4 @@ hr {
   .game-message .lower {
     margin-top: 30px !important; } }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=css.map */

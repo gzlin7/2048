@@ -384,25 +384,25 @@ hr {
     font-size: 0px; }
   .tile.tile-4096 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/4096.png");
+    background-image: url("tiles/4096.png") !important;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.5555555556), inset 0 0 0 1px rgba(255, 255, 255, 0.3333333333);
     font-size: 0px; }
   .tile.tile-8192 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/8192.png");
+    background-image: url("tiles/8192.png") !important;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.5555555556), inset 0 0 0 1px rgba(255, 255, 255, 0.3333333333);
     font-size: 0px; }
   .tile.tile-16384 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/16384.png");
+    background-image: url("tiles/16384.png") !important;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.5555555556), inset 0 0 0 1px rgba(255, 255, 255, 0.3333333333);
     font-size: 0px; }
   .tile.tile-32768 .tile-inner {
     color: #f9f6f2;
-    background-image: url("tiles/32768.png");
+    background-image: url("tiles/32768.png") !important;
     background-size: contain;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.5555555556), inset 0 0 0 1px rgba(255, 255, 255, 0.3333333333);
     font-size: 0px; }
